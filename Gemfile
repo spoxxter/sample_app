@@ -16,10 +16,10 @@ group :development, :test do
 	gem 'sqlite3'
 	gem 'spring'
 	# The following optional lines are part of the advanced setup.
-  	# gem 'guard-rspec', '2.5.0'
-  	# gem 'spork-rails', '4.0.0'
-  	# gem 'guard-spork', '1.5.0'
-  	# gem 'childprocess', '0.3.6'
+  	gem 'guard-rspec'
+  	gem 'spork-rails' 
+  	gem 'guard-spork'
+  	gem 'childprocess'
 end
 
 group :test do
@@ -28,7 +28,7 @@ group :test do
 	gem 'factory_girl_rails'
 	gem 'cucumber-rails', :require => false
 	gem 'database_cleaner' , github:  'bmabey/database_cleaner'
-	gem 'growl'
+	gem 'growl'  #requires purchase from Apple app store, provides notifications
 end
 
 # Use SCSS for stylesheets
